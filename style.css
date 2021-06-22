@@ -11,9 +11,9 @@ img{
     bottom: 0;
     top: 0;
     margin: auto;
-    transform: rotateX(80deg) rotate(-45deg);
+    transform: perspective(900px) translateZ(200px) rotateX(80deg) rotate(-45deg);
     transition: all 1s ease-in;
-    box-shadow: -70px 70px 50px 9px rgba(65, 49, 49, 0.8);
+    box-shadow: -70px 70px 50px 0px rgb(65 49 49 / 90%);
 }
 img:hover{
     transform: rotateX(0) rotate(0);
